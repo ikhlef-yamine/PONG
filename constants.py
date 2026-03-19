@@ -1,16 +1,20 @@
 """
-ce module contiens toute les constante utiliser dans le projet
+ce module contient toutes les constantes utilisées dans le projet
 """
-
 
 __author__ = "ikhlef_y"
 
 
-# definire les constante pour la fenetre
-HHEIGHT = 600
+# Fenêtre
 WIDTH = 800
+HEIGHT = 600  # Vérifie bien l'orthographe ici !
 
-# definire les constante pour les couleur
+# Couleurs (Format RGB)
 WHITE = (255, 255, 255)
-# definire les constante pour les raquette
+BLACK = (0, 0, 0)      # <--- IL MANQUE CETTE LIGNE !
+
+# Jeu
 PADDLE_SPEED = 10
+BALL_SPEED_X = 5       # <--- IL MANQUE CETTE LIGNE !
+BALL_SPEED_Y = 5       # <--- IL MANQUE CETTE LIGNE !
+FPS = 60               # <--- IL MANQUE CETTE LIGNE !
